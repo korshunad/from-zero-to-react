@@ -1,0 +1,52 @@
+html, body{height:100%; margin:0;padding:0}
+.container-fluid {
+  height:100%;
+  display:table;
+  width: 70%;
+  padding: 0;
+}
+body {
+  background-image: url(https://www.bhmpics.com/download/red_balloon_in_the_sky-1440x900.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
+.centering {
+  float:none;
+  margin:0 auto;
+}
+.header {
+  font-family: Fredericka the Great;
+}
+p, .quote {
+  font-family: Didact Gothic;
+  font-size: 20pt;
+  color: rgba(0, 0, 0, 0.7);
+}
+.btn {
+  font-family: Fredericka the Great;
+  font-size: 15pt;
+  background-color:#F7F8F3;
+  border-color:#4A423F;
+  
+}
+@media only screen and (max-width: 767px)
+{
+       .quote
+       {
+           font-size: 20px; 
+       }
+       h1
+       {
+           font-size:24px;
+       }
+}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.well {
+   background-color: rgba(255, 255, 255,  0.6)
+}
+
