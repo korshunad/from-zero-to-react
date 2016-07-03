@@ -30,6 +30,9 @@ p, .quote {
   border-color:#4A423F;
   
 }
+.well {
+   background-color: rgba(255, 255, 255,  0.6)
+}
 @media only screen and (max-width: 767px)
 {
        .quote
@@ -46,7 +49,5 @@ p, .quote {
     width: 50%;
     padding: 10px;
 }
-.well {
-   background-color: rgba(255, 255, 255,  0.6);
-}
+
 
