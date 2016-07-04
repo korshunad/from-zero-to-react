@@ -6,7 +6,7 @@ html, body{height:100%; margin:0;padding:0}
   padding: 0;
 }
 body {
-  background-image: url(https://rawgit.com/korshunad/from-zero-to-react/gh-pages/red_balloon_in_the_sky-1440x900.jpg);
+  background-image: url("https://rawgit.com/korshunad/from-zero-to-react/gh-pages/red_balloon_in_the_sky-1440x900.jpg");
   background-repeat:no-repeat;
   background-size:cover;
 }
